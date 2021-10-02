@@ -9,17 +9,6 @@
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-    
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -128,11 +117,10 @@ Project Link: [https://github.com/PhantHive/inlp](:https://github.com/PhantHive/
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/PhantHive/inlp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/PhantHive/inlp/network/members
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/PhantHive/inlp/issues
+[contributors-shield]: https://img.shields.io/github/contributors/PhantHive/inlp.svg?style=for-the-badge
+[contributors-url]: https://github.com/PhantHive/inlp/graphs/contributors/
+[forks-shield]: https://img.shields.io/github/forks/PhantHive/inlp.svg?style=for-the-badge
+[forks-url]: https://github.com/PhantHive/inlp/network/members/
+[issues-shield]: https://img.shields.io/github/issues/PhantHive/inlp.svg?style=for-the-badge
+[issues-url]: https://github.com/PhantHive/inlp/issues/
 
