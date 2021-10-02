@@ -94,7 +94,7 @@ Only IRIS members can contribute to this project.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@irisrobotics](https://www.instagram.com/irisrobotics/?hl=fr)
+IRIS Robotics - [@irisrobotics](https://www.instagram.com/irisrobotics/?hl=fr)
 
 Project Link: [https://github.com/PhantHive/inlp](:https://github.com/PhantHive/inlp/)
 
