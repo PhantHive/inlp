@@ -22,7 +22,7 @@
 <h3 align="center">IRIS NLP SYSTEM</h3>
 
   <p align="center">
-    A NLP program: tokenize method, PoS Tagging with machine learning
+    A NLP program: tokenize method, PoS Tagging with deep learning
     <br />
     <br />
     <a href="https://github.com/PhantHive/inlp/issues">Report Bug</a>

@@ -42,11 +42,8 @@ class TOKENIZE:
             occurences = list(words_occ.values())
             self.tokenize_matrix.append(occurences)
 
-
-
     def show_sentences(self):
         return self.all_sentences, self.tokenize_matrix, self.all_words
-
 
 
 # tries ===============================
