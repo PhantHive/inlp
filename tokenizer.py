@@ -11,7 +11,7 @@ class TOKENIZE:
         self.all_words = []
         self.tokenize_matrix = []
 
-        stopwords = open('./src/stopwords/stop_words_french.json', 'r')
+        stopwords = open('assets/stopwords/stop_words_french.json', 'r')
         self.stopwords = json.load(stopwords)
 
         self.text_to_sentences()
