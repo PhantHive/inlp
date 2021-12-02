@@ -41,13 +41,10 @@ class TOKENIZE:
                     if word == "":
                         self.sentence.remove(word)
 
-                      
-                            self.sentence.insert(
-                                z + 1,
-                                i + word.split(i, )[1],
-                            )
-
-  
+                        self.sentence.insert(
+                            z + 1,
+                            i + word.split(i, )[1],
+                        )
 
                 self.new_text = self.text.split(let, 1)[1]
                 self.all_sentences.append(self.sentence)
