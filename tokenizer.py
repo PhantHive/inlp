@@ -1,4 +1,5 @@
 import json
+from src.stemming import Stemmer
 
 
 class TOKENIZE:
@@ -61,37 +62,8 @@ class TOKENIZE:
 
 # tries ===============================
 
-texte = 'En mon cœur n\'est point escrite'\
-'La rose ny autre fleur,'\
-'C\'est toy, blanche Marguerite,'\
-'Par qui j\'ay cette couleur.'\
-'N\'es-tu celle dont les yeux'\
-'Ont surpris'\
-'Par un regard gracieux'\
-'Mes esprits ?'\
-'Puis que ta sœur de haut pris,'\
-'Ta sœur, pucelle d\'élite,'\
-'N\'est cause de ma douleur,'\
-'C\'est donc par toy, Marguerite'\
-'Que j\'ay pris ceste couleur.'\
-'Ma couleur palle nasquit,'\
-'Quand mon cœur'\
-'Pour maistresse te requit ;'\
-'Mais rigueur'\
-'D\'une amoureuse langueur'\
-'Soudain paya mon mérite,'\
-'Me donnant ceste pâleur'\
-'Pour t\'aimer trop, Marguerite,'\
-'Et ta vermeille couleur.'\
-'Quel charme pourroit casser'\
-'Mon ennuy'\
-'Et ma couleur effacer'\
-'Avec luy ?'\
-'De l\'amour que tant je suy'\
-'La jouissance subite'\
-'Seule osteroit le malheur'\
-'Que me donna Marguerite,'\
-'Par qui j\'ay cette couleur.'\
+texte = "Yo les gens salut tous tous tous à tous mes frères et bienvenue sur ma chaîne donc aujourd'hui les gars on " \
+        "se retrouve pour une nouvelle vidéo. "
 
 test = TOKENIZE(texte)
 res, res2, res3 = test.show_sentences()
