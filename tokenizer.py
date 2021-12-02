@@ -24,8 +24,7 @@ class TOKENIZE:
                 for word in self.sentence:
                     if "," in word and word.index(",") > 0:
                         z = self.sentence.index(word)
-                        self.sentence[z] = word.split(",", 1)[0]
-                        self.sentence.insert(z + 1, word.split(",", 1)[1])
+                        self.sentence[z] = "".join(word.split((",", 1)[0]))
                     if word == "":
                         self.sentence.remove(word)
                 for word in self.sentence:
@@ -37,6 +36,21 @@ class TOKENIZE:
                                 z + 1,
                                 i + word.split(i, )[1],
                             )
+                for word in self.sentence:
+                    if "'" in word and word.index("'") > 0:
+                        z = self.sentence.index(word)
+                        self.sentence[z] = word.split("'", 1)[0]
+                        self.sentence.insert(
+                            z + 1,
+                            word.split("'", )[1],
+                        )
+                    if word == "":
+                        self.sentence.remove(word)
+
+                        self.sentence.insert(
+                            z + 1,
+                            i + word.split(i, )[1],
+                        )
 
                 self.new_text = self.text.split(let, 1)[1]
                 self.all_sentences.append(self.sentence)
@@ -49,6 +63,8 @@ class TOKENIZE:
         words_occ = {}
 
         for word in self.all_sentences:
+            if word not in self.stopwords:
+                self.all_words += word
             self.all_words += word
 
         self.all_words = [
@@ -57,7 +73,9 @@ class TOKENIZE:
         ]
 
         for sentence in self.all_sentences:
+            print(sentence)
             for i in self.all_words:
+                print(i)
                 if i in sentence:
                     if i in words_occ:
                         words_occ[i] += 1
