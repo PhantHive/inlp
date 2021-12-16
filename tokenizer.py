@@ -62,7 +62,6 @@ class TOKENIZE:
         for word in self.all_sentences:
             if word not in self.stopwords:
                 self.all_words += word
-            self.all_words += word
 
         self.all_words = [
             word for word in self.all_words
