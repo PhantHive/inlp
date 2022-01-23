@@ -7,13 +7,12 @@ class Stemmer:
         self.all_words = all_words
         self.stem_words = []
         self.new_word = ""
-        self.stemmer()
 
     def stemmer(self):
         for word in self.all_words:
             if len(word) >= 5:
                 if word.endswith("x"):
-                    if word.endswith("aux"):
+                    if word.endswith("aux") and not(word.endswith("eaux")):
                         self.new_word = word.replace("aux", "al")
                     else:
                         self.new_word = word.replace("x", "")
@@ -21,7 +20,7 @@ class Stemmer:
                     self.stem_words.append(self.new_word)
 
                 else:
-                    blacklist = ["s", "r", "é", "e"]
+                    blacklist = ["é", "e"]
                     end = -1
                     verif = False
 
@@ -47,3 +46,13 @@ class Stemmer:
                 self.stem_words.append(self.new_word)
 
         return self.stem_words
+
+
+if __name__ == '__main__':
+
+
+    words = ['belle', "gosse", "teste", "oiseaux", "abyssaux", "laisse", "bouygues", "fait", "amour", "souvent", "anale"]
+    IrisStemmer = Stemmer(words)
+    newList = IrisStemmer.stemmer()
+    for w in range(len(newList)):
+        print(words[w], ":", newList[w])
