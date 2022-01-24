@@ -1,5 +1,6 @@
 import json
-from src.stemming import Stemmer
+from src.stemming import IrisStemmer
+import os.path
 
 
 class TOKENIZE:
@@ -10,8 +11,9 @@ class TOKENIZE:
         self.new_text = ""
         self.all_words = []
         self.tokenize_matrix = []
+        self.stemmer = IrisStemmer()
 
-        stopwords = open("assets/stopwords/stop_words_french.json", "r")
+        stopwords = open(os.path.abspath("assets/stopwords/stop_words_french.json"), "r")
         self.stopwords = json.load(stopwords)
         self.text_to_sentences()
 
@@ -64,8 +66,8 @@ class TOKENIZE:
         words_occ = {}
 
         for word in self.all_sentences:
-            if word not in self.stopwords:
-                self.all_words += word
+            if self.stemmer.stemmer(word) not in self.stopwords:
+                self.all_words += self.stemmer.stemmer(word)
 
         self.all_words = [
             word for word in self.all_words
@@ -129,7 +131,8 @@ texte = ("En mon cœur n'est point escrite"
 test = TOKENIZE(texte)
 res, res2, res3 = test.show_sentences()
 
-print(res)
+
+print(res3)
 for lst in res2:
     print(lst)
-print(res3)
+print(res)
