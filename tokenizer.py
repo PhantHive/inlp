@@ -2,6 +2,7 @@ import json
 
 
 class TOKENIZE:
+
     def __init__(self, text):
         self.text = text
         self.all_sentences = []
@@ -34,10 +35,7 @@ class TOKENIZE:
                             self.sentence[z] = word.split(i, 1)[0]
                             self.sentence.insert(
                                 z + 1,
-                                i
-                                + word.split(
-                                    i,
-                                )[1],
+                                i + word.split(i, )[1],
                             )
                 for word in self.sentence:
                     if "'" in word and word.index("'") > 0:
@@ -45,19 +43,14 @@ class TOKENIZE:
                         self.sentence[z] = word.split("'", 1)[0]
                         self.sentence.insert(
                             z + 1,
-                            word.split(
-                                "'",
-                            )[1],
+                            word.split("'", )[1],
                         )
                     if word == "":
                         self.sentence.remove(word)
 
                         self.sentence.insert(
                             z + 1,
-                            i
-                            + word.split(
-                                i,
-                            )[1],
+                            i + word.split(i, )[1],
                         )
 
                 self.new_text = self.text.split(let, 1)[1]
@@ -75,7 +68,8 @@ class TOKENIZE:
                 self.all_words += word
 
         self.all_words = [
-            word for word in self.all_words if word.lower() not in self.stopwords
+            word for word in self.all_words
+            if word.lower() not in self.stopwords
         ]
 
         for sentence in self.all_sentences:

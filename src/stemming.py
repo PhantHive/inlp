@@ -19,7 +19,9 @@ class IrisStemmer:
                 self.stem_words.append(self.new_word)
 
             else:
-                blacklist = ["issement", "ablement", "ation", "ment", "é", "e", "es"]
+                blacklist = [
+                    "issement", "ablement", "ation", "ment", "é", "e", "es"
+                ]
                 end = -1
                 verif = False
 
