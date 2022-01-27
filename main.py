@@ -1,6 +1,6 @@
 import json
 from tokenizer import TOKENIZE
-from stemming import Stemming
+from src.stemming import IrisStemmer
 
 # tries ===============================
 
@@ -37,7 +37,7 @@ texte = ("En mon cœur n'est point escrite"
          "Par qui j'ay cette couleur.")
 
 
-text1 = ("Le trésorier s'est barré avec la caisse il est donc un mauvais trésorier.")
+text1 = "Le trésorier s'est barré avec la caisse il est donc un mauvais trésorier cordialement."
 test = TOKENIZE(text1)
 res, res2, res3 = test.show_sentences()
 
@@ -47,7 +47,8 @@ for lst in res2:
 print("all_words : ")
 print(res3)
 
-stem_test = Stemming(res3)
-stemmed_words = stem_test.show_words()
+
+stem_test = IrisStemmer()
+stemmed_words = stem_test.stemmer(res3)
 print("stemmed_words : ")
 print(stemmed_words)

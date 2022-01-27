@@ -32,22 +32,25 @@ class TOKENIZE:
                         if i.isupper() and word.index(i) > 0:
                             z = self.sentence.index(word)
                             self.sentence[z] = word.split(i, 1)[0]
-                            self.sentence.insert(z + 1, i + word.split(i, )[1])
-                for word in self.sentence:
-                    if "'" in word and word.index("'") > 0:
-                        z = self.sentence.index(word)
-                        self.sentence[z] = word.split("'", 1)[0]
-                        self.sentence.insert(z + 1, word.split("'", )[1])
-                    if word == "":
-                        self.sentence.remove(word)
-
-                      
                             self.sentence.insert(
                                 z + 1,
                                 i + word.split(i, )[1],
                             )
+                for word in self.sentence:
+                    if "'" in word and word.index("'") > 0:
+                        z = self.sentence.index(word)
+                        self.sentence[z] = word.split("'", 1)[0]
+                        self.sentence.insert(
+                            z + 1,
+                            word.split("'", )[1],
+                        )
+                    if word == "":
+                        self.sentence.remove(word)
 
-  
+                        self.sentence.insert(
+                            z + 1,
+                            i + word.split(i, )[1],
+                        )
 
                 self.new_text = self.text.split(let, 1)[1]
                 self.all_sentences.append(self.sentence)
@@ -69,9 +72,7 @@ class TOKENIZE:
         ]
 
         for sentence in self.all_sentences:
-            print(sentence)
             for i in self.all_words:
-                print(i)
                 if i in sentence:
                     if i in words_occ:
                         words_occ[i] += 1
@@ -88,7 +89,7 @@ class TOKENIZE:
 
 
 # tries ===============================
-
+"""
 texte = ("En mon cœur n'est point escrite"
          "La rose ny autre fleur,"
          "C'est toy, blanche Marguerite,"
@@ -120,10 +121,14 @@ texte = ("En mon cœur n'est point escrite"
          "Seule osteroit le malheur"
          "Que me donna Marguerite,"
          "Par qui j'ay cette couleur.")
+
+
+text1 = ("Le trésorier s'est barré avec la caisse il est donc un mauvais trésorier.")
 test = TOKENIZE(texte)
 res, res2, res3 = test.show_sentences()
 
 print(res)
 for lst in res2:
     print(lst)
-print(res3)
+print(res3)"""
+
