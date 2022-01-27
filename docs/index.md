@@ -5,13 +5,13 @@
 
 
 Everything about NLP at IRIS-ROBOTICS (IPSA PARIS)  
-</br>
+
 # What is NLP?
 
 > NLP stands for Natural Language Processing. The main goal of NLP is to 
 > use algorithm to encode/decode our natural language (french for example).
 
-###GOAL: 
+## GOAL: 
 
 * Make AI chat bots to help IPSA's students
 
@@ -59,7 +59,7 @@ within the text given.
 
 This matrix will look like:
 
-![one-hot-matrix](assets/images/one-hot-encoder.png)
+<image src="assets/images/one-hot-encoder.png"></image>
 
 where numbers represent the word occurence in a sentence.
 
