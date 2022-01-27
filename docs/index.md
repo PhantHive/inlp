@@ -1,5 +1,5 @@
 
-<h1 align="center">IRIS NLP SYSTEM</h3>
+<h1 align="center">IRIS NLP SYSTEM</h1>
 
 ![Thumbnail of Hacker](assets/images/thumbnail.png)
 
@@ -59,7 +59,7 @@ within the text given.
 
 This matrix will look like:
 
-![Thumbnail of Hacker](assets/images/one-hot-encoder.png)
+![one-hot-matrix](assets/images/one-hot-encoder.png)
 
 where numbers represent the word occurence in a sentence.
 
