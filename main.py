@@ -1,6 +1,7 @@
 import json
-from tokenizer import TOKENIZE
+
 from src.stemming import IrisStemmer
+from tokenizer import TOKENIZE
 
 # tries ===============================
 
