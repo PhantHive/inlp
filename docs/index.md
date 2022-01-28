@@ -13,7 +13,7 @@ Everything about NLP at IRIS-ROBOTICS (IPSA PARIS)
 
 ## GOAL: 
 
-<t>* Make AI chat bots to help IPSA's students
+* Make AI chat bots to help IPSA's students
 
 <br><br><br>
 # ♥ Encoder Models ♥
