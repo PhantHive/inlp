@@ -18,31 +18,31 @@ class Lemmer:
 
         for row in self.lemmer_file:
 
-            base_word = row.split()[0]
+            lem_word = row.split()[1]
 
-            if self.w == base_word:
-                print(base_word)
-                print(self.w)
-                print("match")
-                return
+            if self.w == lem_word:
+
+                base_word = row.split()[0]
+                return base_word
 
 
         for row in self.lemmer_file_2:
 
 
-            base_word = row.split()[0]
+            lem_word = row.split()[1]
 
-            if self.w == base_word:
-                print(base_word)
-                print(self.w)
-                print("match")
-                return
+            if self.w == lem_word:
+
+                base_word = row.split()[0]
+                return base_word
 
 
 
 if __name__ == '__main__':
 
-    test = Lemmer("yeux")
+    lemmer = Lemmer("extorquions")
 
-    test.lemm()
+    bw = lemmer.lemm()
+
+    print(bw) # print base word :)
 
