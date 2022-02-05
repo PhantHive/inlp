@@ -34,7 +34,7 @@ class Lemmer:
 
 
 if __name__ == '__main__':
-    
+
     lemmer = Lemmer("éjaculât")
 
     bw = lemmer.lemm()

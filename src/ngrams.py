@@ -8,18 +8,20 @@ class Ngram:
 
     def context(self):
 
-        for i in range(len(self.words) - self.n + 1):
+        for i in range(len(self.words)):
             for j in range(self.n):
-                self.data_points.append(self.words[i + j])
-            self.ctx.append(tuple(self.data_points))
-            self.data_points = []
+                if i - j - 1 >= 0:
+                    self.data_points.append((self.words[i], self.words[i - j - 1]))
 
-        return self.ctx
+                if i + j + 1 < len(self.words):
+                    self.data_points.append((self.words[i], self.words[i + j + 1]))
+
+        return self.data_points
 
 
 if __name__ == '__main__':
 
-    wrds = ["Je", "mange", "beaucoup", "de", "pommes", "de", "terres"]
+    wrds = ["The", "future", "king", "is", "the", "prince"]
     ngram = Ngram(wrds, 2)
 
     tples = ngram.context()
@@ -27,4 +29,4 @@ if __name__ == '__main__':
     for wrd in tples:
         print(wrd)
 
-
+    print(len(tples))
