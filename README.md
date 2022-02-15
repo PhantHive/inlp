@@ -70,6 +70,9 @@ Here's why:
 - [x] word tokenizer
 - [x] Stop Words
 - [x] Basic Stemmer (inspired by SnowBall Stemmer)
+- [x] Basic Lemmer 
+- [x] N-gram algorithm
+- [] Word Embedding
 
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
