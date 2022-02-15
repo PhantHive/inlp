@@ -1,5 +1,6 @@
 import json
 from src.stemming import IrisStemmer
+from src.lemmer import IrisLemmer
 import os.path
 
 
@@ -11,7 +12,7 @@ class TOKENIZE:
         self.new_text = ""
         self.all_words = []
         self.tokenize_matrix = []
-        self.stemmer = IrisStemmer()
+        # self.stemmer = IrisStemmer()
 
         stopwords = open(os.path.abspath("assets/stopwords/stop_words_french.json"), "r")
         self.stopwords = json.load(stopwords)
@@ -66,8 +67,8 @@ class TOKENIZE:
         words_occ = {}
 
         for word in self.all_sentences:
-            if self.stemmer.stemmer(word) not in self.stopwords:
-                self.all_words += self.stemmer.stemmer(word)
+            if word not in self.stopwords:
+                self.all_words += word
 
         self.all_words = [
             word for word in self.all_words
@@ -96,7 +97,7 @@ class TOKENIZE:
 # tries ===============================
 
 
-texte = ("En mon cœur n'est point escrite"
+'''texte = ("En mon cœur n'est point escrite"
          "La rose ny autre fleur,"
          "C'est toy, blanche Marguerite,"
          "Par qui j'ay cette couleur."
@@ -126,11 +127,24 @@ texte = ("En mon cœur n'est point escrite"
          "La jouissance subite"
          "Seule osteroit le malheur"
          "Que me donna Marguerite,"
-         "Par qui j'ay cette couleur.")
+         "Par qui j'ay cette couleur.")'''
 
-test = TOKENIZE(texte)
+text = "Avec l'exemple des pièces de Corneille, Molière et Racine, on montre quelques-uns des nombreux " \
+        "usages possibles des bases de données textuelles normalisées et lemmatisées. Elles sont d'une " \
+        "consultation aisée. Elles fournissent de nombreux renseignements sur le vocabulaire, le style, le sens " \
+        "des mots... Pour cela, il faut réduire les graphies multiples et rattacher chaque mot à son entrée de " \
+        "dictionnaire."
+
+test = TOKENIZE(text)
 res, res2, res3 = test.show_sentences()
 
+
+
+# stemmer = IrisStemmer()
+# res3 = stemmer.stemmer(res3)
+
+lemmer = IrisLemmer()
+res3 = lemmer.lemmer(res3)
 
 print(res3)
 for lst in res2:
