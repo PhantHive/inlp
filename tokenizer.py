@@ -76,9 +76,8 @@ class TOKENIZE:
         ]
 
         for sentence in self.all_sentences:
-            print(sentence)
+            # print(sentence)
             for i in self.all_words:
-                print(i)
                 if i in sentence:
                     if i in words_occ:
                         words_occ[i] += 1
@@ -97,7 +96,7 @@ class TOKENIZE:
 # tries ===============================
 
 
-'''texte = ("En mon cœur n'est point escrite"
+text = ("En mon cœur n'est point escrite"
          "La rose ny autre fleur,"
          "C'est toy, blanche Marguerite,"
          "Par qui j'ay cette couleur."
@@ -127,13 +126,13 @@ class TOKENIZE:
          "La jouissance subite"
          "Seule osteroit le malheur"
          "Que me donna Marguerite,"
-         "Par qui j'ay cette couleur.")'''
+         "Par qui j'ay cette couleur.")
 
-text = "Avec l'exemple des pièces de Corneille, Molière et Racine, on montre quelques-uns des nombreux " \
+'''text = "Avec l'exemple des pièces de Corneille, Molière et Racine, on montre quelques-uns des nombreux " \
         "usages possibles des bases de données textuelles normalisées et lemmatisées. Elles sont d'une " \
         "consultation aisée. Elles fournissent de nombreux renseignements sur le vocabulaire, le style, le sens " \
         "des mots... Pour cela, il faut réduire les graphies multiples et rattacher chaque mot à son entrée de " \
-        "dictionnaire."
+        "dictionnaire."'''
 
 test = TOKENIZE(text)
 res, res2, res3 = test.show_sentences()
@@ -143,8 +142,11 @@ res, res2, res3 = test.show_sentences()
 # stemmer = IrisStemmer()
 # res3 = stemmer.stemmer(res3)
 
+
+
 lemmer = IrisLemmer()
 res3 = lemmer.lemmer(res3)
+
 
 print(res3)
 for lst in res2:
