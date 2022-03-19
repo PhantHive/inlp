@@ -2,7 +2,7 @@ import json
 from src.stemming import IrisStemmer
 from src.lemmer import IrisLemmer
 import os.path
-
+from src.one_hot import OneHot
 
 class TOKENIZE:
     def __init__(self, text):
@@ -64,7 +64,7 @@ class TOKENIZE:
 
     def tokenize(self):
 
-        words_occ = {}
+
 
         for word in self.all_sentences:
             if word not in self.stopwords:
@@ -74,20 +74,14 @@ class TOKENIZE:
             word for word in self.all_words
             if word.lower() not in self.stopwords
         ]
+        self.all_words.sort()
 
-        for sentence in self.all_sentences:
-            # print(sentence)
-            for i in self.all_words:
-                if i in sentence:
-                    if i in words_occ:
-                        words_occ[i] += 1
-                    else:
-                        words_occ[i] = 1
-                else:
-                    words_occ[i] = 0
+        lemmer = IrisLemmer() # Lemmatize all words
+        self.all_words = lemmer.lemmer(self.all_words)
 
-            occurences = list(words_occ.values())
-            self.tokenize_matrix.append(occurences)
+        oh_encode = OneHot(self.all_sentences, self.all_words)
+        self.tokenize_matrix = oh_encode.encode()
+
 
     def show_sentences(self):
         return self.all_sentences, self.tokenize_matrix, self.all_words
@@ -144,8 +138,8 @@ res, res2, res3 = test.show_sentences()
 
 
 
-lemmer = IrisLemmer()
-res3 = lemmer.lemmer(res3)
+# lemmer = IrisLemmer()
+# res3 = lemmer.lemmer(res3)
 
 
 print(res3)
