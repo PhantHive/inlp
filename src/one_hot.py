@@ -20,7 +20,10 @@ class OneHot:
                     words_occ[i] = 0
 
             occurences = list(words_occ.values())
+
             self.tokenize_matrix.append(occurences)
             words_occ.clear()
+
+        print(self.tokenize_matrix)
 
         return self.tokenize_matrix

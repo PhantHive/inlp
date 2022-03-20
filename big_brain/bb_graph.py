@@ -2,14 +2,16 @@ from keras.models import Input, Model
 from keras.layers import Dense
 import matplotlib.pyplot as plt
 
+
 class BBGraph:
 
-    def __init__(self, X, Y, word_dict, words):
+    def __init__(self, X, Y, Z, word_dict, words):
 
         self.X = X
         self.Y = Y
+        self.Z = Z
 
-        self.embed_size = 2 # 3 dimensionnal graph
+        self.embed_size = 3  # 3 dimensionnal graph
         self.embedding_dict = {}
         self.word_dict = word_dict
         self.words = words
@@ -22,6 +24,7 @@ class BBGraph:
 
         x = Dense(units=self.embed_size, activation='linear')(inp)
         x = Dense(units=self.Y.shape[1], activation='softmax')(x)
+        x = Dense(units=self.Z.shape[1], activation='softmax')(x)
 
         ai_model = Model(inputs=inp, outputs=x)
         ai_model.compile(loss='categorical_crossentropy', optimizer='adam')
@@ -41,18 +44,20 @@ class BBGraph:
               "\n\nBiais: \n", bias)
 
         for word in self.words:
-
             self.embedding_dict.update({
                 word: weights[self.word_dict.get(word)]
             })
 
     def show_graph(self):
 
-        plt.figure(figsize=(20, 20))
+
+        fig = plt.figure(figsize=(10, 10))
+
+        ax = fig.add_subplot(projection='3d')
 
         for word in list(self.word_dict.keys()):
             coord = self.embedding_dict.get(word)
-            plt.scatter(coord[0], coord[1])
-            plt.annotate(word, (coord[0], coord[1]))
+            ax.scatter(coord[0], coord[1], coord[2])
+            ax.text(coord[0], coord[1], coord[2], word)
 
         plt.show()

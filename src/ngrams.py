@@ -9,12 +9,21 @@ class Ngram:
     def context(self):
 
         for i in range(len(self.words)):
-            for j in range(self.n):
+            base_tpl = (self.words[i],)
+            base_tpl2 = (self.words[i],)
+            for j in range(self.n - 1):
                 if i - j - 1 >= 0:
-                    self.data_points.append((self.words[i], self.words[i - j - 1]))
+                    base_tpl += (self.words[i - j - 1],)
 
                 if i + j + 1 < len(self.words):
-                    self.data_points.append((self.words[i], self.words[i + j + 1]))
+                    base_tpl2 += (self.words[i + j + 1],)
+
+            if (len(base_tpl) == self.n):
+                self.data_points.append(base_tpl)
+            if (len(base_tpl2) == self.n):
+                self.data_points.append(base_tpl2)
+
+
 
         return self.data_points
 
@@ -22,7 +31,7 @@ class Ngram:
 if __name__ == '__main__':
 
     wrds = ["The", "future", "king", "is", "the", "prince"]
-    ngram = Ngram(wrds, 2)
+    ngram = Ngram(wrds, 4)
 
     tples = ngram.context()
 

@@ -64,12 +64,14 @@ IrisVec.Word2Vec()
 
 X = IrisVec.get_X()
 Y = IrisVec.get_Y()
+Z = IrisVec.get_Z()
 word_dict = IrisVec.get_word_dict()
 
 print("\nX:\n", X)
 print("\nY:\n", Y)
+print("\nZ:\n", Z)
 
-BB = BBGraph(X, Y, word_dict, res3)
+BB = BBGraph(X, Y, Z, word_dict, res3)
 BB.show_graph()
 
 
