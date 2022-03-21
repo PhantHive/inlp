@@ -30,12 +30,14 @@ class Ngram:
 
 if __name__ == '__main__':
 
-    wrds = ["The", "future", "king", "is", "the", "prince"]
-    ngram = Ngram(wrds, 4)
+    wrds = ["fais", "beaucoup", "enfants", "tous", "jours"]
+    ngram = Ngram(wrds, 3)
 
     tples = ngram.context()
 
+
+    print("3-Grams")
     for wrd in tples:
         print(wrd)
 
-    print(len(tples))
+    #print(len(tples))
