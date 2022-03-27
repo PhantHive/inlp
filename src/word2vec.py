@@ -1,16 +1,18 @@
 import numpy as np
+
+from src.indexing import Indexing
 from src.ngrams import Ngram
 
 
 class Word2Vec:
 
-    def __init__(self, one_hot_matrix, words):
+    def __init__(self, words):
 
-        self.one_hot_matrix = one_hot_matrix
+        self.i_dict = {}
         self.X = []
         self.Y = []
         self.Z = []
-        self.n = len(words)  # number of unique words
+        self.n = None  # number of unique words
         self.words = words
         self.word_dict = {}
 
@@ -19,8 +21,11 @@ class Word2Vec:
         ngram = Ngram(self.words, 3)  # N-gram with 2 words context
         data_points = ngram.context()
 
-        for i, word in enumerate(self.words):
-            self.word_dict[word] = i
+        print(self.words)
+        i_encode = Indexing(self.words)
+        self.word_dict = i_encode.encode()
+
+        self.n = len(self.word_dict)
 
         for j, data_point in enumerate(data_points):
             focus_word = self.word_dict.get(data_point[0])
@@ -37,7 +42,7 @@ class Word2Vec:
 
             self.X.append(X_row)
             self.Y.append(Y_row)
-            self.Z.append(Y_row)
+            self.Z.append(Z_row)
 
         self.X = np.asarray(self.X)
         self.Y = np.asarray(self.Y)

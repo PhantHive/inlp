@@ -24,18 +24,16 @@ class BBGraph:
 
         x = Dense(units=self.embed_size, activation='linear')(inp)
         x = Dense(units=self.Y.shape[1], activation='softmax')(x)
-        x = Dense(units=self.Z.shape[1], activation='softmax')(x)
 
         ai_model = Model(inputs=inp, outputs=x)
         ai_model.compile(loss='categorical_crossentropy', optimizer='adam')
 
         ai_model.fit(
             x=self.X,
-            y=self.Y,
+            y=self.Y,  # target matrix
             batch_size=256,
-            epochs=1000
+            epochs=2500
         )
-
 
         weights = ai_model.get_weights()[0]
         bias = ai_model.get_weights()[1]
@@ -49,7 +47,6 @@ class BBGraph:
             })
 
     def show_graph(self):
-
 
         fig = plt.figure(figsize=(10, 10))
 

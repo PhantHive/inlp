@@ -34,7 +34,7 @@ from big_brain.bb_graph import BBGraph
          "Que me donna Marguerite,"
          "Par qui j'ay cette couleur.")'''
 
-'''text = ("Enhardis par ce succès, les habitants d'une région tropicale. "
+text = ("Enhardis par ce succès, les habitants d'une région tropicale. "
         "Gardez donc votre secret ; tremblez, malheureuse ; "
         "il faut vous réveiller un peu plus que la voix de son fils que nous connaissons. "
         "Telle est donc la petite fille savait qu'il la trahissait. "
@@ -52,30 +52,26 @@ from big_brain.bb_graph import BBGraph
         "Jetons au feu ce que j'appris ce dangereux supplément, qui trompe, elle est là qui chante auprès du nouveau-né, avait surnagé. "
         "Lourds ont été les plus heureuses. Choisissez des jeunes gens de mon âge ; "
         "j'étais d'un courage tout particulier, qui ne travaillait plus, il piétinait d'un air modeste, était une complète image de la duchesse.")
-'''
-
-'''text = ("Le Roi du royaume de Nantes pris ses jambes à son cou."
-        "Lorsque ce futur roi manga son royaume. "
-        "Le royaume du Roi de Nantes était envahis par le prince."
-        "L'ancien prince de ce royaume. Dont le roi gouverne ce royaume."
-        "Ce Roi possède un énorme royaume qui a été envahis par le prince."
-        "Le Roi tente de convaincre le prince de quitter le royaume.")'''
 
 
-text = ("Une femme aux gros boobies se tenait là devant moi."
-        "Ses gros seins étaient énorme. Cette femme avait de gros gros seins!"
-        "Ses gros boobs étaient si énormes que aucune femme au monde pouvait avoir d'aussi gros boobs."
-        "Des seins plutot pas mal pour une aussi petite femme."
-        "Une petite femme avec des seins énormes."
-        "Les gros seins de la femme étaient largement visible."
-        "C'était la première fois que j'ai vu d'aussi gros boobs.")
+
+'''text = ("C'est l'histoire d'un fainéant qui n'aimait pas faire les choses dans les temps."
+        "Romain ne fait jamais les choses dans les temps."
+        "Toujours fainéant, Romain ne fait rien."
+        "Chaque jour, il se réveille et oublie de faire les choses dans les temps ce jeune Romain."
+        "Ce serait bien que Romain fasse quelque chose car la il ne fait rien. Ce"
+        "Romain est un gros fainéant, stop Romain être un fainéant. T'es un gros fainéant Romain. Tu devrais faire les choses dans les temps Romain."
+        "Romain est un putain de fainéant, ce gros fainéant de Romain!!! c'est énervant d'être aussi fainéant et de rien faire."
+        "Romain fait rien, Romain ne fait jamais rien, Romain est fainéant. fainéant ce Romain."
+        )'''
+
 
 print("\n\n==========PROGRAMME PRINCIPAL========")
 
 test = TOKENIZE(text)
-res, res2, res3 = test.show_sentences()
+res, res3 = test.show_sentences()
 
-IrisVec = Word2Vec(res2, res3)
+IrisVec = Word2Vec(res3)
 IrisVec.Word2Vec()
 
 X = IrisVec.get_X()
@@ -99,6 +95,5 @@ print("\n\n==========FIN DU PROGRAMME========")
 
 
 print(res3)
-for lst in res2:
-    print(lst)
+
 print(res)
