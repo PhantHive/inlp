@@ -1,8 +1,6 @@
 import numpy as np
-
 from src.indexing import Indexing
 from src.ngrams import Ngram
-
 
 class Word2Vec:
 
@@ -18,16 +16,20 @@ class Word2Vec:
 
     def Word2Vec(self):
 
-        ngram = Ngram(self.words, 3)  # N-gram with 2 words context
-        data_points = ngram.context()
 
-        print(self.words)
         i_encode = Indexing(self.words)
         self.word_dict = i_encode.encode()
 
+        self.words = list(self.word_dict.keys())
+
+        ngram = Ngram(self.words, 3)  # N-gram with 2 words context
+        data_points = ngram.context()
+
+
+
         self.n = len(self.word_dict)
 
-        for j, data_point in enumerate(data_points):
+        for j, data_point in enumerate(data_points[1]):
             focus_word = self.word_dict.get(data_point[0])
             context_word = self.word_dict.get(data_point[1])
             context_word2 = self.word_dict.get(data_point[2])

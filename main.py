@@ -1,6 +1,9 @@
+import numpy as np
+
 from tokenizer import TOKENIZE
 from src.word2vec import Word2Vec
 from big_brain.bb_graph import BBGraph
+from big_brain.bb_test import BB_test as TEST
 
 '''text = ("En mon cœur n'est point escrite"
          "La rose ny autre fleur,"
@@ -34,26 +37,6 @@ from big_brain.bb_graph import BBGraph
          "Que me donna Marguerite,"
          "Par qui j'ay cette couleur.")'''
 
-text = ("Enhardis par ce succès, les habitants d'une région tropicale. "
-        "Gardez donc votre secret ; tremblez, malheureuse ; "
-        "il faut vous réveiller un peu plus que la voix de son fils que nous connaissons. "
-        "Telle est donc la petite fille savait qu'il la trahissait. "
-        "Vint toutefois une scène qu'il ouvre un nouveau danger à la vue les clouait d'admiration et de perplexité se manifesta. "
-        "Accroupie devant sa maîtresse, à laquelle elle était des plus modérées et que si je n'en manque pas : là, durant des années. "
-        "Mettez les chevaux, et nous dirions que nous l'entendons se lever, quoique bien des fois. "
-        "Sapristi, c'est ainsi qu'à l'époque de son existence physique et indépendante que nous avons appelée statique ou naturelle. "
-        "Capable d'une pareille découverte se trouvent naturellement très accrues. "
-        "Exposez votre cas, je vais un peu mieux les affaires et tous les autres : "
-        "danse sans prétention, mais j'en reviens à ce club de la rue est en mouvement emporterait avec lui celui qui est enchanté comme moi n'est rien. "
-        "Jaloux de remplir vos intentions, monsieur, sauf que leurs coquilles, "
-        "plus grosses, que les musiciens détonnaient de fatigue, poussa un gémissement sourd. "
-        "Gardez-moi près de vous sans obtenir mon pardon plein et entier. "
-        "Duc, vous sortez des griffes du tigre, selon les termes mêmes de la société semblent marcher au hasard ? "
-        "Jetons au feu ce que j'appris ce dangereux supplément, qui trompe, elle est là qui chante auprès du nouveau-né, avait surnagé. "
-        "Lourds ont été les plus heureuses. Choisissez des jeunes gens de mon âge ; "
-        "j'étais d'un courage tout particulier, qui ne travaillait plus, il piétinait d'un air modeste, était une complète image de la duchesse.")
-
-
 
 '''text = ("C'est l'histoire d'un fainéant qui n'aimait pas faire les choses dans les temps."
         "Romain ne fait jamais les choses dans les temps."
@@ -65,6 +48,19 @@ text = ("Enhardis par ce succès, les habitants d'une région tropicale. "
         "Romain fait rien, Romain ne fait jamais rien, Romain est fainéant. fainéant ce Romain."
         )'''
 
+text = ("L'intelligence artificielle IA est « l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler "
+        "l'intelligence humaine »."
+        "notant le peu de précision de la définition de L'intelligence artificielle, l'ont présentée comme « le grand mythe de notre temps »3. "
+        "Souvent classée dans le groupe des mathématiques et des sciences cognitives, "
+        "elle fait appel à la neurobiologie computationnelle particulièrement aux réseaux neuronaux "
+        "et à la logique mathématique partie des mathématiques et de la philosophie. "
+        "Elle utilise des méthodes de résolution de problèmes à forte complexité logique ou algorithmique. "
+        "Par extension, elle comprend, dans le langage courant, les dispositifs imitant ou remplaçant l'homme dans certaines mises en œuvre de ses fonctions cognitives4. "
+        "Ses finalités et enjeux ainsi que son développement suscitent, depuis l'apparition du concept, "
+        "de nombreuses interprétations, fantasmes ou inquiétudes s'exprimant tant dans les récits ou films de science-fiction que dans les essais philosophiques5. "
+        "Si des outils relevant d'intelligences artificielles spécialisées ont fait leurs preuves, "
+        "la réalité semble encore tenir l'intelligence artificielle généraliste loin des performances du vivant ; "
+        "ainsi, L'intelligence artificielle reste encore bien inférieure au chat dans toutes ses aptitudes naturelles.")
 
 print("\n\n==========PROGRAMME PRINCIPAL========")
 
@@ -83,9 +79,30 @@ print("\nX:\n", X)
 print("\nY:\n", Y)
 print("\nZ:\n", Z)
 
+
+
 BB = BBGraph(X, Y, Z, word_dict, res3)
 BB.show_graph()
 
+
+'''
+BB_test = TEST(X, Y, Z, word_dict, res3)
+model = BB_test.init_network()
+result = BB_test.forward(model, X[3])
+print(word_dict)
+print(X[3])
+
+def id_to_word(id):
+
+    temp_keys= list(word_dict.keys())
+    temp = list(word_dict.values())
+    pos = temp.index(id)
+    return temp_keys[pos]
+
+
+for word in (id_to_word(id) for id in np.argsort(result)[::-1]):
+    print(word)
+'''
 
 print("\n\n==========FIN DU PROGRAMME========")
 

@@ -23,7 +23,7 @@ class BBGraph:
         inp = Input(shape=(self.X.shape[1],))
 
         x = Dense(units=self.embed_size, activation='linear')(inp)
-        x = Dense(units=self.Y.shape[1], activation='softmax')(x)
+        x = Dense(units=self.Y.shape[1], activation='softmax')(x) # prediction
 
         ai_model = Model(inputs=inp, outputs=x)
         ai_model.compile(loss='categorical_crossentropy', optimizer='adam')
@@ -49,7 +49,6 @@ class BBGraph:
     def show_graph(self):
 
         fig = plt.figure(figsize=(10, 10))
-
         ax = fig.add_subplot(projection='3d')
 
         for word in list(self.word_dict.keys()):
