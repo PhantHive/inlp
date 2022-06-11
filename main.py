@@ -38,7 +38,7 @@ from big_brain.bb_test import BB_test as TEST
          "Par qui j'ay cette couleur.")'''
 
 
-'''text = ("C'est l'histoire d'un fainéant qui n'aimait pas faire les choses dans les temps."
+text = ("C'est l'histoire d'un fainéant qui n'aimait pas faire les choses dans les temps."
         "Romain ne fait jamais les choses dans les temps."
         "Toujours fainéant, Romain ne fait rien."
         "Chaque jour, il se réveille et oublie de faire les choses dans les temps ce jeune Romain."
@@ -46,9 +46,9 @@ from big_brain.bb_test import BB_test as TEST
         "Romain est un gros fainéant, stop Romain être un fainéant. T'es un gros fainéant Romain. Tu devrais faire les choses dans les temps Romain."
         "Romain est un putain de fainéant, ce gros fainéant de Romain!!! c'est énervant d'être aussi fainéant et de rien faire."
         "Romain fait rien, Romain ne fait jamais rien, Romain est fainéant. fainéant ce Romain."
-        )'''
+        )
 
-text = ("L'intelligence artificielle IA est « l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler "
+'''text = ("L'intelligence artificielle IA est « l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler "
         "l'intelligence humaine »."
         "notant le peu de précision de la définition de L'intelligence artificielle, l'ont présentée comme « le grand mythe de notre temps »3. "
         "Souvent classée dans le groupe des mathématiques et des sciences cognitives, "
@@ -60,7 +60,7 @@ text = ("L'intelligence artificielle IA est « l'ensemble des théories et des t
         "de nombreuses interprétations, fantasmes ou inquiétudes s'exprimant tant dans les récits ou films de science-fiction que dans les essais philosophiques5. "
         "Si des outils relevant d'intelligences artificielles spécialisées ont fait leurs preuves, "
         "la réalité semble encore tenir l'intelligence artificielle généraliste loin des performances du vivant ; "
-        "ainsi, L'intelligence artificielle reste encore bien inférieure au chat dans toutes ses aptitudes naturelles.")
+        "ainsi, L'intelligence artificielle reste encore bien inférieure au chat dans toutes ses aptitudes naturelles.")'''
 
 print("\n\n==========PROGRAMME PRINCIPAL========")
 
@@ -84,13 +84,15 @@ print("\nZ:\n", Z)
 BB = BBGraph(X, Y, Z, word_dict, res3)
 BB.show_graph()
 
-
 '''
+
 BB_test = TEST(X, Y, Z, word_dict, res3)
 model = BB_test.init_network()
-result = BB_test.forward(model, X[3])
-print(word_dict)
-print(X[3])
+result = BB_test.forward(model, X[5])
+print(result)
+
+#print(word_dict)
+#print(X[5])
 
 def id_to_word(id):
 
@@ -111,6 +113,6 @@ print("\n\n==========FIN DU PROGRAMME========")
 
 
 
-print(res3)
+print(res3) # unique word with preprocessing
 
-print(res)
+print(res) # complete word list

@@ -18,7 +18,7 @@ class TOKENIZE:
         self.tokenize_matrix = []
         # self.stemmer = IrisStemmer()
 
-        stopwords = open(os.path.abspath("assets/stopwords/stop_words_french.json"), "r")
+        stopwords = open(os.path.abspath("assets/stopwords/stop_words_french.json"), "r", encoding="utf8")
         self.stopwords = json.load(stopwords)
         self.text_to_sentences()
 
@@ -145,13 +145,13 @@ if __name__ == '__main__':
     
     '''
 
-    '''text = "Avec l'exemple des (pièces) de Corneille, Molière et Racine, on montre quelques-uns des nombreux " \
+    '''text = ("Avec l'exemple des (pièces) de Corneille, Molière et Racine, on montre quelques-uns des nombreux " \
            "usages possibles des bases de données textuelles normalisées et lemmatisées. Elles sont d'une " \
            "consultation aisée. Elles fournissent de nombreux renseignements sur le vocabulaire, le style, le sens " \
            "des mots... Pour cela, il faut réduire les graphies multiples et rattacher chaque mot à son entrée de " \
-           "dictionnaire."'''
+           "dictionnaire.")'''
 
-    text = ("C'est l'histoire d'un fainéant qui n'aimait pas faire les choses dans les temps."
+    '''text = ("C'est l'histoire d'un fainéant qui n'aimait pas faire les choses dans les temps."
             "Romain ne fait jamais les choses dans les temps."
             "Toujours fainéant, Romain ne fait rien."
             "Chaque jour, il se réveille et oublie de faire les choses dans les temps ce jeune Romain."
@@ -159,7 +159,9 @@ if __name__ == '__main__':
             "Romain est un gros fainéant, stop Romain être un fainéant. T'es un gros fainéant Romain. Tu devrais faire les choses dans les temps Romain."
             "Romain est un putain de fainéant, ce gros fainéant de Romain!!! c'est énervant d'être aussi fainéant et de rien faire."
             "Romain fait rien, Romain ne fait jamais rien, Romain est fainéant. fainéant ce Romain."
-            )
+            )'''
+
+    text = ("Je fais à manger.")
 
     test = TOKENIZE(text)
     res, res3 = test.show_sentences()
@@ -170,7 +172,7 @@ if __name__ == '__main__':
     lemmer = IrisLemmer()
     res3 = lemmer.lemmer(res3)
 
-    print(res3)
+    print(res3) # word list with preprocessing applied
 
 
     for sent in res:
