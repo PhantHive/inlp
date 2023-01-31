@@ -18,7 +18,7 @@ class TOKENIZE:
         self.tokenize_matrix = []
         # self.stemmer = IrisStemmer()
 
-        stopwords = open(os.path.abspath("assets/stopwords/stop_words_french.json"), "r", encoding="utf8")
+        stopwords = open(os.path.abspath("../assets/stopwords/stop_words_french.json"), "r", encoding="utf8")
         self.stopwords = json.load(stopwords)
         self.text_to_sentences()
 
@@ -35,15 +35,21 @@ class TOKENIZE:
                         self.sentence[z] = "".join(word.split((",", 1)[0]))
                     if word == "":
                         self.sentence.remove(word)
+                    if word[0] == "[" and word[-1] == "]":
+                        self.sentence.remove(word)
+
                 for word in self.sentence:
                     for i in word:
-                        if i.isupper() and word.index(i) > 0:
-                            z = self.sentence.index(word)
-                            self.sentence[z] = word.split(i, 1)[0]
-                            self.sentence.insert(
-                                z + 1,
-                                i + word.split(i, )[1],
-                            )
+                        try:
+                            if i.isupper() and word.index(i) > 0:
+                                z = self.sentence.index(word)
+                                self.sentence[z] = word.split(i, 1)[0]
+                                self.sentence.insert(
+                                    z + 1,
+                                    i + word.split(i, )[1],
+                                )
+                        except:
+                            pass
 
                 for word in self.sentence:
 
@@ -161,7 +167,7 @@ if __name__ == '__main__':
             "Romain fait rien, Romain ne fait jamais rien, Romain est fainéant. fainéant ce Romain."
             )'''
 
-    text = ("Je fais à manger.")
+    text = ("Je fais à manger pour manger. Ok ma mère mange.")
 
     test = TOKENIZE(text)
     res, res3 = test.show_sentences()
@@ -177,3 +183,4 @@ if __name__ == '__main__':
 
     for sent in res:
         print(sent)
+

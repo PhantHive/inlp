@@ -7,8 +7,8 @@ class IrisLemmer:
         self.base_word = ""
         self.word = ""
         self.lem_words = []
-        self.lemmer_path = os.path.abspath('assets/dict/lemmatization-fr.txt')
-        self.lemmer_path_2 = os.path.abspath('assets/dict/lemmatization-fr-2.txt')
+        self.lemmer_path = os.path.abspath('../assets/dict/lemmatization-fr.txt')
+        self.lemmer_path_2 = os.path.abspath('../assets/dict/lemmatization-fr-2.txt')
 
     def lemm(self, word):
 
