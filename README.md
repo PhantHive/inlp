@@ -66,13 +66,12 @@ Here's why:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] sentence tokenizer
-- [x] word tokenizer
-- [x] Stop Words
+- [x] Tokenizer with pre-processing
 - [x] Basic Stemmer (inspired by SnowBall Stemmer)
 - [x] Basic Lemmer 
 - [x] N-gram algorithm
-- [] Word Embedding
+- [x] TF-IDF algorithm
+- [] Word2Vec
 
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).

@@ -8,12 +8,9 @@ class Ngram:
 
     def context(self):
 
-        backward_dp = []
-        forward_dp = []
-
         for i in range(len(self.words)):
-            base_tpl = (self.words[i],) # backward context (index(focus_word) = -1)
-            base_tpl2 = (self.words[i],) # forward context (index(focus_word) = 1)
+            base_tpl = (self.words[i],)
+            base_tpl2 = (self.words[i],)
             for j in range(self.n - 1):
                 if i - j - 1 >= 0:
                     base_tpl += (self.words[i - j - 1],)
@@ -22,29 +19,37 @@ class Ngram:
                     base_tpl2 += (self.words[i + j + 1],)
 
             if (len(base_tpl) == self.n):
-                #self.data_points.append(base_tpl)
-                backward_dp.append(base_tpl)
+                self.data_points.append(base_tpl)
             if (len(base_tpl2) == self.n):
-                #self.data_points.append(base_tpl2)
-                forward_dp.append(base_tpl2)
+                self.data_points.append(base_tpl2)
 
-        self.data_points.append(backward_dp)
-        self.data_points.append(forward_dp)
+
 
         return self.data_points
+
+    def get_context_words(self, index):
+        context_words = []
+        for tpl in self.data_points:
+            if tpl[0] == self.words[index]:
+                for i in range(1, len(tpl)):
+                    if tpl[i] not in context_words:
+                        context_words.append(tpl[i])
+        return context_words
+
+
+
 
 
 if __name__ == '__main__':
 
-    wrds = ["L'association", "IRIS", "est", "la", "meilleure"]
+    wrds = ["The", "future", "king", "is", "the", "prince"]
     ngram = Ngram(wrds, 3)
 
     tples = ngram.context()
 
-
-    print("3-Grams")
     for wrd in tples:
-        for tpl in wrd:
-            print(tpl)
+        print(wrd)
 
-    #print(len(tples))
+    print(len(tples))
+
+    print(ngram.get_context_words(2))

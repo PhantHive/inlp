@@ -3,6 +3,7 @@ import os
 from collections import defaultdict
 from src.tokenizer import TOKENIZE
 import numpy as np
+import time
 
 class TFIDF:
 
@@ -135,9 +136,16 @@ if __name__ == '__main__':
     # ---------------------------
     # TF-IDF ALGORITHM BY IRIS ROBOTICS
     # ---------------------------
+
+    # calculate execution time
+
+    start_time = time.time()
+
     tfidf = TFIDF(corpus)
     tfidf_matrix = tfidf.tfidf()
     print("---------------------------")
     print("Processing TF-IDF matrix...")
     print("---------------------------")
     print(tfidf_matrix)
+
+    print("\nExecution time: %s seconds" % (time.time() - start_time))

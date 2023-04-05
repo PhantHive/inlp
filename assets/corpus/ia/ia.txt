@@ -1,0 +1,315 @@
+L'intelligence artificielle (IA) est l'un des domaines les plus fascinants et les plus dynamiques de la technologie moderne. L'IA est une branche de l'informatique qui cherche à créer des systèmes informatiques capables de résoudre des problèmes, d'apprendre de nouvelles choses et de prendre des décisions autonomes en utilisant des données et des algorithmes sophistiqués. Depuis des décennies, les chercheurs ont travaillé dur pour développer des systèmes d'IA de plus en plus avancés, et les résultats ont été époustouflants.
+
+L'IA est belle pour de nombreuses raisons. Tout d'abord, elle permet de résoudre des problèmes complexes que les humains ne peuvent pas résoudre seuls. Par exemple, l'IA peut aider les médecins à diagnostiquer des maladies rares et à déterminer le meilleur traitement. Elle peut également aider les entreprises à prédire les tendances du marché et à prendre des décisions éclairées sur les investissements. Ces capacités de l'IA peuvent améliorer considérablement la qualité de vie des gens et renforcer les entreprises, contribuant ainsi à la croissance économique.
+
+De plus, l'IA peut être très utile pour améliorer l'efficacité des tâches quotidiennes. Elle peut automatiser les tâches répétitives et fastidieuses, ce qui permet aux humains de se concentrer sur des tâches plus créatives et à plus forte valeur ajoutée. Elle peut également aider à augmenter la productivité et la précision, ce qui peut avoir un impact significatif sur la qualité du travail accompli.
+
+L'IA peut également aider à résoudre des problèmes qui affectent directement la vie des gens. Par exemple, elle peut aider les personnes atteintes de déficiences visuelles ou auditives à interagir avec leur environnement. Elle peut également aider les personnes atteintes de troubles mentaux à gérer leur état en surveillant leur comportement et en fournissant des conseils adaptés. De plus, l'IA peut aider à améliorer la sécurité publique en détectant les comportements criminels potentiels et en prévenant les actes criminels avant qu'ils ne se produisent.
+
+L'IA peut également améliorer l'éducation en fournissant des outils d'apprentissage personnalisés. Les enseignants peuvent utiliser des systèmes d'IA pour suivre les progrès des élèves et adapter leur enseignement en conséquence. Les étudiants peuvent également utiliser des outils d'IA pour apprendre de manière plus interactive et personnalisée. Cela peut aider à réduire l'écart de réussite entre les élèves et à améliorer les résultats scolaires en général.
+
+Enfin, l'IA peut aider à résoudre des problèmes environnementaux. Elle peut aider à surveiller et à prévenir les catastrophes naturelles en détectant les signes avant-coureurs. Elle peut également aider à améliorer la gestion des ressources naturelles en fournissant des prévisions météorologiques plus précises, en optimisant la gestion de l'eau et en aidant à surveiller l'état de la biodiversité.
+
+En conclusion, l'intelligence artificielle est une technologie incroyablement belle qui a le potentiel de transformer notre monde pour le mieux. Elle peut résoudre des problèmes complexes, améliorer la qualité de vie des gens et aider à protéger l'environnement. C'est une technologie qui mérite d'être étudiée et utilisée avec soin.
+
+Bien sûr, il y a également des préoccupations concernant l'impact de l'IA sur la société, telles que l'automatisation des emplois et la protection de la vie privée. Cependant, si ces préoccupations sont gérées correctement, l'IA peut offrir des avantages considérables et des opportunités de croissance économique et de développement social.
+
+En effet, l'IA est une technologie qui ne cesse d'évoluer et de se perfectionner. Les récentes avancées dans l'apprentissage profond, le traitement du langage naturel et la vision par ordinateur ont permis à l'IA de faire des progrès significatifs dans la reconnaissance d'images, la traduction automatique, la reconnaissance vocale, la détection de fraudes et la reconnaissance de sentiments. De plus, la puissance de calcul et la disponibilité de données massives ont également permis d'accélérer les progrès de l'IA.
+
+L'IA peut également être utilisée pour résoudre des problèmes complexes de manière plus efficace que les humains. Par exemple, les machines peuvent analyser des données massives de manière plus rapide et plus précise que les humains, ce qui peut permettre de détecter des schémas cachés et de faire des prédictions plus précises. Les systèmes d'IA peuvent également apprendre à partir de leurs propres erreurs, ce qui leur permet de s'améliorer et d'augmenter leur précision au fil du temps.
+
+En outre, l'IA est également de plus en plus accessible. Les plates-formes de développement d'IA basées sur le cloud permettent aux entreprises et aux développeurs de créer des systèmes d'IA sans avoir à investir dans des infrastructures coûteuses. De plus, les bibliothèques open-source telles que TensorFlow et PyTorch ont rendu l'apprentissage profond et l'IA plus accessibles aux développeurs du monde entier.
+
+En fin de compte, la beauté de l'IA réside dans sa capacité à résoudre des problèmes complexes et à améliorer la qualité de vie des gens. En améliorant l'efficacité des tâches quotidiennes, en améliorant l'enseignement et l'apprentissage, en améliorant la sécurité publique et en aidant à résoudre des problèmes environnementaux, l'IA peut aider à résoudre certains des problèmes les plus pressants de notre temps.
+
+Cependant, pour réaliser pleinement le potentiel de l'IA, il est important de considérer les implications sociales et éthiques de cette technologie. Les questions relatives à la responsabilité, à la confidentialité des données et à l'injustice algorithmique doivent être examinées et résolues pour garantir que l'IA est utilisée de manière éthique et responsable.
+
+En fin de compte, l'IA est une technologie fascinante qui offre des avantages considérables à la société. En utilisant l'IA de manière responsable et éthique, nous pouvons améliorer la qualité de vie des gens et résoudre certains des problèmes les plus complexes de notre temps.
+
+En outre, l'IA peut également aider à réduire les inégalités économiques et sociales en améliorant l'accès aux services de base tels que la santé, l'éducation et les soins. Les systèmes d'IA peuvent être utilisés pour aider les médecins à diagnostiquer les maladies plus rapidement et plus précisément, permettant ainsi aux patients d'obtenir un traitement plus rapide et plus efficace. De même, l'IA peut être utilisée pour améliorer l'enseignement et l'apprentissage en fournissant des outils d'apprentissage personnalisés qui s'adaptent aux besoins individuels des élèves.
+
+En outre, l'IA peut également aider à résoudre certains des problèmes environnementaux les plus pressants de notre temps. Les systèmes d'IA peuvent être utilisés pour surveiller et prédire les changements climatiques, permettant ainsi aux gouvernements et aux entreprises de prendre des mesures pour réduire leur impact sur l'environnement. De même, l'IA peut être utilisée pour surveiller les niveaux de pollution de l'air et de l'eau, ce qui peut aider à prévenir les maladies respiratoires et les maladies liées à l'eau.
+
+La beauté de l'IA réside également dans sa capacité à apprendre de manière autonome et à s'adapter à des situations nouvelles et imprévues. Les systèmes d'IA peuvent être programmés pour apprendre de nouvelles tâches et s'adapter à des situations nouvelles sans intervention humaine. Par exemple, les voitures autonomes utilisent des systèmes d'IA pour détecter les obstacles et les dangers potentiels sur la route et pour ajuster leur conduite en conséquence. De même, les robots industriels peuvent utiliser des systèmes d'IA pour détecter et corriger les erreurs dans leur travail, ce qui peut améliorer l'efficacité et la qualité de la production.
+
+Enfin, l'IA peut également être utilisée pour améliorer la créativité et l'expression artistique. Les systèmes d'IA peuvent être programmés pour générer des œuvres d'art, de la musique et même des histoires en utilisant des algorithmes complexes. Ces systèmes peuvent également être utilisés pour aider les artistes et les designers à générer des idées et à explorer de nouvelles formes d'expression.
+
+En conclusion, la beauté de l'IA réside dans sa capacité à résoudre des problèmes complexes, à améliorer la qualité de vie des gens et à stimuler la créativité et l'innovation. Cependant, pour réaliser pleinement son potentiel, il est important de prendre en compte les implications sociales et éthiques de cette technologie et de la développer de manière responsable et équitable. En fin de compte, l'IA peut être un outil puissant pour améliorer la société et résoudre certains des problèmes les plus pressants de notre temps, et c'est là que réside sa véritable beauté.
+
+Au-delà de ses applications pratiques, l'IA possède également une beauté intrinsèque dans la complexité de ses processus de traitement de l'information. Les algorithmes et les modèles mathématiques qui sous-tendent l'IA sont souvent incroyablement élégants et ingénieux. Ils reflètent la puissance de l'esprit humain dans sa capacité à résoudre des problèmes complexes, à conceptualiser des abstractions et à innover de manière créative.
+
+En outre, l'IA peut également nous aider à mieux comprendre notre propre cerveau et la façon dont il traite l'information. Les réseaux de neurones artificiels qui sous-tendent de nombreux systèmes d'IA sont conçus pour imiter les processus de traitement de l'information dans le cerveau humain. En étudiant le fonctionnement de ces réseaux de neurones artificiels, nous pouvons mieux comprendre comment notre propre cerveau traite l'information et comment nous prenons des décisions.
+
+Enfin, l'IA peut également être considérée comme une forme d'art en soi. Les artistes et les designers ont commencé à explorer les possibilités offertes par l'IA pour créer des œuvres d'art uniques et novatrices. Des œuvres d'art générées par des algorithmes ont été vendues aux enchères pour des millions de dollars, tandis que des musiciens ont utilisé des systèmes d'IA pour créer des morceaux de musique entièrement nouveaux.
+
+En somme, la beauté de l'IA réside dans sa capacité à résoudre des problèmes, à améliorer notre qualité de vie, à stimuler la créativité et à nous aider à mieux comprendre notre propre esprit. La complexité de ses algorithmes et la puissance de ses applications pratiques reflètent la capacité de l'esprit humain à innover, à conceptualiser et à résoudre des problèmes complexes. En continuant à explorer les possibilités offertes par l'IA, nous pouvons créer un avenir plus innovant, plus créatif et plus équitable pour tous.
+
+En dépit de tous les avantages et de la beauté de l'IA, il est important de noter qu'il y a également des préoccupations quant à son utilisation et son développement. Les inquiétudes liées à la sécurité et la confidentialité des données, l'impact sur les emplois, les biais potentiels dans les systèmes d'IA et la responsabilité en cas d'erreur ou de dysfonctionnement sont autant de sujets qui doivent être pris en compte.
+
+Il est donc important que les développeurs, les chercheurs, les décideurs et les utilisateurs de l'IA travaillent ensemble pour élaborer des normes éthiques, réglementaires et de sécurité pour l'IA. Des efforts doivent également être faits pour promouvoir la diversité et l'inclusion dans le développement de l'IA afin de garantir que les systèmes d'IA reflètent les besoins et les valeurs de l'ensemble de la société.
+
+En fin de compte, l'IA est une technologie puissante qui peut avoir des impacts profonds et positifs sur notre vie quotidienne et sur l'ensemble de la société. Sa beauté réside dans sa capacité à innover, à créer, à résoudre des problèmes et à nous aider à mieux comprendre notre propre esprit. Mais pour que l'IA puisse réaliser tout son potentiel, il est essentiel de la développer de manière responsable, éthique et équitable. C'est en travaillant ensemble que nous pouvons garantir que l'IA contribue à un avenir meilleur pour tous.
+
+Qu’est-ce que l’intelligence artificielle ?
+Qu’est-ce que l’intelligence ? Est-ce la capacité à percevoir le monde, à prédire le futur
+immédiat ou lointain, ou à planifier une série d’actions pour atteindre un but ? Est-ce la capacité
+d’apprendre, ou celle d’appliquer son savoir à bon escient ? La définition est difficile à cerner.
+On pourrait dire que l’intelligence artificielle (IA) est un ensemble de techniques permettant à
+des machines d’accomplir des tâches et de résoudre des problèmes normalement réservés aux
+humains et à certains animaux.
+Les tâches relevant de l’IA sont parfois très simples pour les humains, comme par exemple
+reconnaître et localiser les objets dans une image, planifier les mouvements d’un robot pour
+attraper un objet, ou conduire une voiture. Elles requièrent parfois de la planification complexe,
+comme par exemple pour jouer aux échecs ou au Go. Les tâches les plus compliquées requièrent
+beaucoup de connaissances et de sens commun, par exemple pour traduire un texte ou conduire
+un dialogue.
+Depuis quelques années, on associe presque toujours l’intelligence aux capacités
+d’apprentissage. C’est grâce à l’apprentissage qu’un système intelligent capable d’exécuter une
+tâche peut améliorer ses performances avec l’expérience. C’est grâce à l’apprentissage qu’il
+pourra apprendre à exécuter de nouvelles tâches et acquérir de nouvelles compétences.
+Le domaine de l’IA n’a pas toujours considéré l’apprentissage comme essentiel à l’intelligence.
+Par le passé, construire un système intelligent consistait à écrire un programme « à la main » pour
+jouer aux échecs (par recherche arborescente), reconnaître des caractères imprimés (par
+comparaison avec des images prototypes), ou faire un diagnostic médical à partir des symptômes
+(par déduction logique à partir de règles écrites par des experts). Mais cette approche
+« manuelle » a ses limites.
+L’apprentissage machine
+Les méthodes manuelles se sont avérées très difficiles à appliquer pour des tâches en
+apparence très simples comme la reconnaissance d’objets dans les images ou la reconnaissance
+vocale. Les données venant du monde réel – les échantillons d’un son ou les pixels d’une image –
+sont complexes, variables et entachées de bruit.
+Pour une machine, une image est un tableau de nombres indiquant la luminosité (ou la
+couleur) de chaque pixel, et un signal sonore une suite de nombres indiquant la pression de l’air à
+chaque instant.
+Comment une machine peut-elle transcrire la suite de nombres d’un signal sonore en série de
+mots tout en ignorant le bruit ambiant, l’accent du locuteur et les particularités de sa voix ?
+Comment une machine peut-elle identifier un chien ou une chaise dans le tableau de nombre
+d’une image quand l’apparence d’un chien ou d’une chaise et des objets qui les entourent peuvent
+varier infiniment ?
+Il est virtuellement impossible d’écrire un programme qui fonctionnera de manière robuste
+dans toutes les situations. C’est là qu’intervient l’apprentissage machine (que l’on appelle aussi
+apprentissage automatique). C’est l’apprentissage qui anime les systèmes de toutes les grandes
+entreprises d’Internet. Elles l’utilisent depuis longtemps pour filtrer les contenus indésirables,
+ordonner des réponses à une recherche, faire des recommandations, ou sélectionner les
+informations intéressantes pour chaque utilisateur.
+Un système entraînable peut être vu comme une boite noire avec une entrée, par exemple une
+image, un son, ou un texte, et une sortie qui peut représenter la catégorie de l’objet dans l’image,
+le mot prononcé, ou le sujet dont parle le texte. On parle alors de systèmes de classification ou de
+reconnaissance des formes.
+Dans sa forme la plus utilisée, l’apprentissage machine est supervisé : on montre en entrée de
+la machine une photo d’un objet, par exemple une voiture, et on lui donne la sortie désirée pour
+une voiture. Puis on lui montre la photo d’un chien avec la sortie désirée pour un chien. Après
+chaque exemple, la machine ajuste ses paramètres internes de manière à rapprocher sa sortie de la
+sortie désirée. Après avoir montré à la machine des milliers ou des millions d’exemples étiquetés
+avec leur catégorie, la machine devient capable de classifier correctement la plupart d’entre eux.
+Mais ce qui est plus intéressant, c’est qu’elle peut aussi classifier correctement des images de
+voiture ou de chien qu’elle n’a jamais vues durant la phase l’apprentissage. C’est ce qu’on appelle
+la capacité de généralisation.
+Jusqu’à récemment, les systèmes de reconnaissance des formes classiques étaient composés de
+deux blocs : un extracteur de caractéristiques (feature extractor en anglais), suivi d’un classifieur
+entraînable simple. L’extracteur de caractéristiques est programmé « à la main », et transforme le
+tableau de nombres représentant l’image en une série de nombres, un vecteur de caractéristiques,
+dont chacun indique la présence ou l’absence d’un motif simple dans l’image. Ce vecteur est
+envoyé au classifieur, dont un type commun est le classifieur linéaire. Ce dernier calcule une
+somme pondérée des caractéristiques : chaque nombre est multiplié par un poids (positif ou
+négatif) avant d’être sommé. Si la somme est supérieure à un seuil, la classe est reconnue. Les
+poids forment une sorte de « prototype » pour la classe à laquelle le vecteur de caractéristiques est
+comparé. Les poids sont différents pour les classifieurs de chaque catégorie, et ce sont eux qui
+sont modifiés lors de l’apprentissage. Les premières méthodes de classification linéaire
+entraînable datent de la fin des années cinquante et sont toujours largement utilisées aujourd’hui.
+Elles prennent les doux noms de perception ou régression logistique.
+Apprentissage profond et réseaux neuronaux
+Le problème de l’approche classique de la reconnaissance des formes est qu’un bon extracteur
+de caractéristiques est très difficile à construire, et qu’il doit être repensé pour chaque nouvelle
+application.
+C’est là qu’intervient l’apprentissage profond ou deep learning en anglais. C’est une classe de
+méthodes dont les principes sont connus depuis la fin des années 80, mais dont l’utilisation ne
+s’est vraiment généralisée que depuis 2012, environ.
+L’idée est très simple : le système entraînable est constitué d’une série de modules, chacun
+représentant une étape de traitement. Chaque module est entraînable, comportant des paramètres
+ajustables similaires aux poids des classifieurs linéaires. Le système est entraîné de bout en bout :
+à chaque exemple, tous les paramètres de tous les modules sont ajustés de manière à rapprocher
+la sortie produite par le système de la sortie désirée. Le qualificatif profond vient de
+l’arrangement de ces modules en couches successives.
+Pour pouvoir entraîner le système de cette manière, il faut savoir dans quelle direction et de
+combien ajuster chaque paramètre de chaque module. Pour cela il faut calculer un gradient, c’està-dire pour chaque paramètre ajustable, la quantité par laquelle l’erreur en sortie augmentera ou
+diminuera lorsqu’on modifiera le paramètre d’une quantité donnée. Le calcul de ce gradient se fait
+par la méthode de rétropropagation, pratiquée depuis le milieu des années 80.
+Dans sa réalisation la plus commune, une architecture profonde peut être vue comme un
+réseau multicouche d’éléments simples, similaires aux classifieurs linéaires, interconnectés par
+des poids entraînables. C’est ce qu’on appelle un réseau neuronal multicouche.
+Pourquoi neuronal ? Un modèle extrêmement simplifié des neurones du cerveau les voit
+comme calculant une somme pondérée et activant leur sortie lorsque celle-ci dépasse un seuil.
+L’apprentissage modifie les efficacités des synapses, les poids des connexions entre neurones. Un
+réseau neuronal n’est pas un modèle précis des circuits du cerveau, mais est plutôt vu comme un
+modèle conceptuel ou fonctionnel. Le réseau neuronal est inspiré du cerveau un peu comme
+l’avion est inspiré de l’oiseau.
+Ce qui fait l’avantage des architectures profondes, c’est leur capacité d’apprendre à représenter
+le monde de manière hiérarchique. Comme toutes les couches sont entraînables, nul besoin de
+construire un extracteur de caractéristiques à la main. L’entraînement s’en chargera. De plus, les
+premières couches extrairont des caractéristiques simples (présence de contours) que les couches
+suivantes combineront pour former des concepts de plus en plus complexes et abstraits :
+assemblages de contours en motifs, de motifs en parties d’objets, de parties d’objets en objets, etc.
+Réseaux convolutifs, réseaux récurrents
+Une architecture profonde particulièrement répandue est le réseau convolutif. C’est un peu
+mon invention. J’ai développé les premières versions en 1988-1989 d’abord à l’Université de
+Toronto ou j’étais post doctorant avec Geoffrey Hinton (qui travaille maintenant chez Google),
+puis aux Bell Laboratories, qui était à l’époque le prestigieux labo de recherche de la compagnie
+de télécommunication AT&T.
+Les réseaux convolutifs sont une forme particulière de réseau neuronal multicouche dont
+l’architecture des connexions est inspirée de celle du cortex visuel des mammifères. Par exemple,
+chaque élément n’est connecté qu’à un petit nombre d’éléments voisins dans la couche
+précédente. J’ai d’abord utilisé les réseaux convolutifs pour la reconnaissance de caractères. Mes
+collègues et moi avons développé un système automatique de lecture de chèques qui a été
+déployé largement dans le monde dès 1996, y compris en France dans les distributeurs de billets
+du Crédit Mutuel de Bretagne. À la fin des années 90, ce système lisait entre 10 et 20 % de tous
+les chèques émis aux États-Unis. Mais ces méthodes étaient plutôt difficiles à mettre en œuvre
+avec les ordinateurs de l’époque, et malgré ce succès, les réseaux convolutifs – et les réseaux
+neuronaux plus généralement – ont été délaissés par la communauté de la recherche entre 1997 et
+2012.
+En 2003, Geoffrey Hinton (de l’Université de Toronto), Yoshua Bengio (de l’Université de
+Montréal) et moi-même à NYU (l’Université de New York), décidions de démarrer un
+programme de recherche pour remettre au goût du jour les réseaux neuronaux, et pour améliorer
+leurs performances afin de raviver l’intérêt de la communauté. Ce programme a été financé en
+partie par la fondation CIFAR (l’Institut Canadien de Recherches Avancées), je l’appelle parfois
+« la conspiration de l’apprentissage profond ».
+En 2011-2012 trois événements ont soudainement changé la donne. Tout d’abord, les GPUs
+(Graphical Processing Units) capables de plus de mille milliards d’opérations par seconde sont
+devenus disponibles pour moins de 1000 euros la carte. Ces puissants processeurs spécialisés,
+initialement conçus pour le rendu graphique des jeux vidéo, se sont avérés être très performants
+pour les calculs des réseaux neuronaux. Deuxièmement, des expériences menées simultanément à
+Microsoft, Google et IBM avec l’aide du laboratoire de Geoff Hinton ont montré que les réseaux
+profonds pouvaient diminuer de moitié les taux d’erreurs des systèmes de reconnaissance vocale.
+Troisièmement plusieurs records en reconnaissance d’image ont été battus par des réseaux
+convolutifs. L’événement le plus marquant a été la victoire éclatante de l’équipe de Toronto dans
+la compétition de reconnaissance d’objets « ImageNet ». La diminution des taux d’erreurs était
+telle qu’une véritable révolution d’une rapidité inouïe s’est déroulée. Du jour au lendemain, la
+majorité des équipes de recherche en parole et en vision ont abandonné leurs méthodes préférées
+et sont passées aux réseaux convolutifs et autres réseaux neuronaux.
+L’industrie d’Internet a immédiatement saisi l’opportunité et a commencé à investir
+massivement dans des équipes de recherche et développements en apprentissage profond.
+L’apprentissage profond ouvre une porte vers des progrès significatifs en intelligence artificielle.
+C’est la cause première du récent renouveau d’intérêt pour l’IA.
+Une autre classe d’architecture, les réseaux récurrents sont aussi revenus au goût du jour. Ces
+architectures sont particulièrement adaptées au traitement de signaux séquentiels, tels que le
+texte. Les progrès sont rapides, mais il y a encore du chemin à parcourir pour produire des
+systèmes de compréhension de texte et de traduction.
+L’intelligence artificielle aujourd’hui. Ses
+enjeux
+Les opportunités sont telles que l’IA, particulièrement l’apprentissage profond, est vue comme
+des technologies d’importance stratégique pour l’avenir.
+Les progrès en vision par ordinateur ouvrent la voie aux voitures sans chauffeur, et à des
+systèmes automatisés d’analyse d’imagerie médicale. D’ores et déjà, certaines voitures haut de
+gamme utilisent le système de vision de la compagnie Israelienne MobilEye qui utilise un réseau
+convolutif pour l’assistance à la conduite. Des systèmes d’analyse d’images médicales détectent
+des mélanomes et autres tumeurs de manière plus fiable que des radiologues expérimentés. Chez
+Facebook, Google et Microsoft, des systèmes de reconnaissance d’image permettent la recherche
+et l’organisation des photos et le filtrage d’images violentes ou pornographiques.
+Depuis plusieurs années déjà, tous les moteurs de reconnaissance vocale sur smartphone
+utilisent l’apprentissage profond.
+Des efforts considérables de R&D sont consacrés au traitement du langage naturel : la
+compréhension de texte, les systèmes de question-réponse, les systèmes de dialogue pour les
+agents virtuels, et la traduction automatique. Dans ce domaine, la révolution de l’apprentissage
+profond a été annoncée, mais n’est pas encore achevée. Néanmoins, on assiste à des progrès
+rapides. Dans la dernière compétition internationale de traduction automatique, le gagnant
+utilisait un réseau récurrent.
+La recherche en intelligence artificielle et les
+obstacles au progrès
+Malgré tous ces progrès, nous sommes encore bien loin de produire des machines aussi
+intelligentes que l’humain, ni même aussi intelligentes qu’un rat.
+Bien sûr, nous avons des systèmes qui peuvent conduire une voiture, jouer aux échecs et au
+Go, et accomplir d’autres tâches difficiles de manière plus fiable et rapide que la plupart des
+humains (sans parler des rats). Mais ces systèmes sont très spécialisés. Un gadget à 30 euros nous
+bat à plate couture aux échecs, mais il ne peut faire rien d’autre.
+Ce qui manque aussi aux machines, c’est la capacité à apprendre des tâches qui impliquent non
+seulement d’apprendre à représenter le monde, mais aussi à se remémorer, à raisonner, à prédire,
+et à planifier. Beaucoup de travaux actuels à Facebook AI Research et à DeepMind sont focalisés
+sur cette question. Une nouvelle classe de réseaux neuronaux, les Memory-Augmented Recurrent
+Neural Nets (réseaux récurrents à mémoire) est utilisée de manière expérimentale pour la
+traduction, la production de légendes pour les images, et les systèmes de dialogues.
+Mais ce qui manque principalement aux machines, c’est le sens commun, et la capacité à
+l’intelligence générale qui permet d’acquérir de nouvelles compétences, quel qu’en soit le
+domaine. Mon opinion, qui n’est partagée que par certains de mes collègues, est que l’acquisition
+du sens commun passe par l’apprentissage non supervisé.
+Qu’il soit naturel ou artificiel, il y a trois formes principales d’apprentissage. Nous avons déjà
+parlé de l’apprentissage supervisé. Les deux autres formes sont l’apprentissage par renforcement,
+et l’apprentissage non supervisé.
+L’apprentissage par renforcement désigne la situation où la machine ne reçoit qu’un simple
+signal, une sorte de récompense, indiquant si la réponse produite était correcte ou pas. Le
+scénario est similaire à l’entraînement d’un animal de cirque à qui l’on donne une friandise
+lorsqu’il exécute l’action désirée. Cette forme d’apprentissage nécessite de très nombreux essais,
+et est utilisée principalement pour entraîner les machines à jouer à des jeux (par exemple les jeux
+vidéo ou le jeu de Go), ou à opérer dans des environnements simulés. On a assisté à un succès
+éclatant de l’apprentissage par renforcement combiné à l’apprentissage profond lors de la victoire
+récente du programme de Go AlphaGo de DeepMind face au champion européen.
+L’apprentissage non supervisé, quant à lui, est le mode principal d’apprentissage des animaux
+et des humains. C’est l’apprentissage que nous faisons par nous même en observant le monde et
+en agissant. C’est en observant le monde que nous apprenons qu’il a trois dimensions, que des
+objets peuvent en cacher d’autres, que certains objets peuvent être déplacés, qu’un objet sans
+support tombe, qu’un objet ne peut pas être à deux endroits en même temps, etc.
+C’est grâce à l’apprentissage non supervisé que nous pouvons interpréter une phrase simple
+comme « Jean prend son portable et sort de la pièce ». On peut inférer que Jean et son portable ne
+sont plus dans la pièce, que le portable en question est un téléphone, que Jean s’est levé, qu’il a
+étendu sa main pour attraper son portable, qu’il a marché vers la porte. Il n’a pas volé, il n’est pas
+passé à travers le mur. Nous pouvons faire cette inférence, car nous savons comment le monde
+fonctionne. C’est le sens commun.
+Comment acquérir ce sens commun ? Une hypothèse possible est l’apprentissage prédictif. Si
+l’on entraîne une machine à prédire le futur, elle ne peut y arriver qu’en élaborant une bonne
+représentation du monde et de ses contraintes physiques. Dans un scénario d’apprentissage
+prédictif, on montre à la machine un segment de vidéo, et on lui demande de prédire quelques
+images suivantes. Malheureusement, le futur est impossible à prédire exactement et la machine
+s’en tient à produire une image floue, une mixture de tous les futurs possibles.
+Si l’intelligence est un gâteau au chocolat, le gâteau lui-même est l’apprentissage non
+supervisé, le glaçage est l’apprentissage supervisé, et la cerise sur le gâteau est l’apprentissage par
+renforcement. Les chercheurs en IA sont dans la même situation embarrassante que les
+physiciens : 95 % de la masse de l’univers est de nature complètement inconnue : matière noire et
+énergie noire. La matière noire de l’AI est la génoise au chocolat de l’apprentissage non
+supervisé.
+Tant que le problème de l’apprentissage non supervisé ne sera pas résolu, nous n’aurons pas de
+machine vraiment intelligente. C’est une question fondamentale scientifique et mathématique, pas
+une question de technologie. Résoudre ce problème pourra prendre de nombreuses années ou
+plusieurs décennies. En vérité, nous n’en savons rien.
+À quoi ressembleront les machines
+intelligentes de demain ?
+Si nous arrivons à concevoir des techniques d’apprentissage machine aussi générales et
+performantes que celle de la nature, à quoi ressembleront les machines intelligentes de demain ?
+Il est très difficile d’imaginer une entité intelligente qui n’ait pas toutes les qualités et les
+défauts des humains, car l’humain est notre seul exemple d’entité intelligente. Comme tous les
+animaux, les humains ont des pulsions et des instincts gravés dans notre cerveau reptilien par
+l’évolution pour la survie de l’espèce. Nous avons l’instinct de préservation, nous pouvons
+devenir violents lorsque nous sommes menacés, nous désirons l’accès aux ressources pour ne pas
+mourir de faim, ce qui peut nous rendre jaloux, etc. Nos instincts d’animaux sociaux nous
+conduisent aussi à rechercher la compagnie d’autres humains. Mais les machines intelligentes
+n’auront aucune raison de posséder ces pulsions et instincts. Pour qu’elles les aient, il faudrait que
+leurs concepteurs les construisent explicitement.
+Les machines intelligentes du futur auront des sentiments, des plaisirs, des peurs, et des
+valeurs morales. Ces valeurs seront une combinaison de comportements, d’instinct et de pulsions
+programmés avec des comportements appris.
+Dans quelques décennies, quand nous pourrons peut-être penser à concevoir des machines
+réellement intelligentes, nous devrons répondre à la question de comment aligner les valeurs des
+machines avec les valeurs morales humaines.
+Mais c’est un futur lointain où l’on pourra donner de l’autonomie aux machines. D’ici là, les
+machines seront certes intelligentes, mais pas autonomes. Elles ne seront pas à même de définir
+leurs propres buts et motivations. L’ordinateur de votre voiture s’en tiendra à conduire votre
+voiture en toute sécurité. L’IA sera un amplificateur de notre intelligence, et non un substitut pour
+celle-ci.
+Malgré les déclarations de certaines personnalités, le scénario à la Terminator est
+immensément improbable. Tout d’abord, il faut garder à l’esprit que l’apparition de l’IA ne sera
+pas un événement singulier, ni le fait d’un groupe isolé. Le progrès de l’IA sera progressif et
+ouvert. Comprendre l’intelligence est une des grandes questions scientifiques de notre temps.
+Aucune organisation, si puissante soit-elle, ne peut résoudre ce problème en isolation. La
+conception de machines intelligentes nécessitera la collaboration ouverte de la communauté de la
+recherche entière.
+Faut-il avoir peur de l’intelligence artificielle ?
+L’IA n’éliminera donc pas l’humanité de sa propre initiative.
+Mais comme toute technologie puissante, l’IA peut être utilisée pour le bénéfice de l’humanité
+entière ou pour le bénéfice d’un petit nombre aux dépens du plus grand nombre.
+L’émergence de l’AI va sans doute déplacer des métiers. Mais elle va aussi sauver des vies
+(par la sécurité routière et la médecine). Elle va très probablement s’accompagner d’une
+croissance de la production de richesses par habitant. La question pour les instances dirigeantes
+est comment distribuer ces nouvelles richesses, et comment former les travailleurs déplacés aux
+nouveaux métiers créés par le progrès technologique. C’est une question politique et non
+technologique. C’est une question qui n’est pas nouvelle : l’effet du progrès technologique sur le
+marché du travail existe depuis la révolution industrielle. L’émergence de l’IA n’est qu’un
+symptôme de l’accélération du progrès technologique.
+Yann LeCun

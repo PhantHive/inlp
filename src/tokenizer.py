@@ -4,8 +4,6 @@ import re
 from src.stemming import IrisStemmer
 from src.lemmer import IrisLemmer
 import os.path
-from src.indexing import Indexing
-
 
 class TOKENIZE:
 
@@ -20,6 +18,8 @@ class TOKENIZE:
 
         stopwords = open(os.path.abspath("../assets/stopwords/stop_words_french.json"), "r", encoding="utf8")
         self.stopwords = json.load(stopwords)
+
+        print("Starting tokenization...")
         self.text_to_sentences()
 
     def text_to_sentences(self):
@@ -96,16 +96,25 @@ class TOKENIZE:
             if word.lower() not in self.stopwords
         ]
 
+        # deleting empty words
+        self.all_words = [
+            word for word in self.all_words
+            if word != ''
+        ]
+
 
 
     def tokenize(self):
 
         # pre-process words by deleting unexpected characters or words.
+        print("Pre-processing words...")
         self.preprocess_words()
 
+        print("Lemmatizing words...")
         lemmer = IrisLemmer()  # Lemmatize all words using the IRIS lemmer.
         self.all_words = lemmer.lemmer(self.all_words)
 
+        print("Sorting words...")
         self.all_words.sort()
 
     def show_sentences(self):
@@ -178,7 +187,7 @@ if __name__ == '__main__':
     lemmer = IrisLemmer()
     res3 = lemmer.lemmer(res3)
 
-    print(res3) # word list with preprocessing applied
+    print(f"filtered words: ", res3) # word list with preprocessing applied
 
 
     for sent in res:
