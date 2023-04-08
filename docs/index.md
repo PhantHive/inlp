@@ -85,6 +85,7 @@ Examples:
   | Bouygues        | Bouygues      
   | Assouplissement | Assoupli
 
+<br><br>
 # ♥ Encoder ♥
 > We will describe here the encoder used in the project Big Brain.
 
@@ -100,7 +101,7 @@ word3 = [0,0,1]
 
 Example given a random set of words:
 
-<image src="assets/images/one-hot-encoder.png"></image>
+![one-hot.png](assets%2Fimages%2Fone-hot.png)
 
 *Please note: The One-hot encoder doesn't give any information about the context and/or relation between the words.*
 
@@ -115,7 +116,8 @@ multiple context words, there can be only one focus word within one tuple.
 Example given a random set of words:
 ![course_2.png](assets%2Fimages%2Fcourse_2.png)
 
-# AI models used in the project
+<br><br>
+# ♥ AI models used in the project ♥
 > We will describe here the AI models used in the project Big Brain.
 > We have 2 models: SkipGram and Transformer.
 
@@ -141,7 +143,7 @@ Process of the SkipGram:
 - The model updates the weights matrix using backpropagation and stochastic gradient descent, in order to minimize the difference between the predicted probability distribution and the actual context words.<br><br>
 - The model repeats the process for each focus word in the corpus, updating the weights matrix at each step. The final result is a weights matrix that can be used as a word embedding encoder, where each row corresponds to the embedding of a word in the vocabulary.<br><br>
 
-
+<br><br>
 # End note
 > the Big Brain project is complex and can seem overwhelming at first. 
 > But, it is a great project to learn about NLP and AI. It is also a great way to improve yourself
@@ -152,7 +154,6 @@ Process of the SkipGram:
 
 > I will complete this documentation as I go along the project. I might be wrong on some points, so feel free to correct me.
 
-
-
+<br><br>
 # Author
 **[Zakaria Chaouki](https://github.com/PhantHive)** 
